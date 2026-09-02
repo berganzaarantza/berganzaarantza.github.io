@@ -2,17 +2,17 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', Verdana, sans-serif;
-  background-color: #10101c;
-  color: #e8e6e3;
+  background-color: #14101f;
+  color: #ece6f0;
   line-height: 1.6;
 }
 
 #encabezado {
-  background-color: #1a1a2e;
-  color: #f4c95d;
+  background-color: #241a35;
+  color: #7fe7c4;
   text-align: center;
   padding: 40px 20px 20px 20px;
-  border-bottom: 4px solid #6b0f1a;
+  border-bottom: 4px solid #4b2e83;
 }
 
 #encabezado h1 {
@@ -22,26 +22,26 @@ body {
 }
 
 .subtitulo {
-  color: #cfcfcf;
+  color: #c9c2d6;
   font-style: italic;
   margin-top: 8px;
 }
 
 #menu {
   text-align: center;
-  background-color: #0c0c16;
+  background-color: #0f0a1a;
   padding: 12px 0;
 }
 
 #menu a {
-  color: #edf6f9;
+  color: #ece6f0;
   text-decoration: none;
   margin: 0 15px;
   padding: 6px 10px;
 }
 
 #menu a:hover {
-  background-color: #6b0f1a;
+  background-color: #4b2e83;
 }
 
 .seccion {
@@ -51,12 +51,12 @@ body {
 }
 
 .seccion-oscura {
-  background-color: #16162a;
+  background-color: #1e1730;
 }
 
 .seccion h2 {
-  color: #f4c95d;
-  border-bottom: 2px solid #6b0f1a;
+  color: #7fe7c4;
+  border-bottom: 2px solid #4b2e83;
   padding-bottom: 8px;
   margin-bottom: 20px;
 }
@@ -66,16 +66,16 @@ body {
   max-width: 100%;
   height: auto;
   margin: 0 auto 20px auto;
-  border: 2px solid #6b0f1a;
+  border: 2px solid #4b2e83;
 }
 
 .etiqueta {
-  color: #f4c95d;
+  color: #7fe7c4;
   font-weight: bold;
 }
 
 .personaje {
-  background-color: #1a1a2e;
+  background-color: #241a35;
   padding: 15px;
   margin-bottom: 20px;
 }
@@ -87,7 +87,7 @@ body {
 
 .info-personaje h3 {
   margin: 0 0 8px 0;
-  color: #f4c95d;
+  color: #7fe7c4;
 }
 
 .info-personaje p {
@@ -104,8 +104,8 @@ body {
 
 #pie-pagina {
   text-align: center;
-  background-color: #0c0c16;
-  color: #999999;
+  background-color: #0f0a1a;
+  color: #9d93ad;
   padding: 20px;
   font-size: 0.9em;
 }
