@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', Verdana, sans-serif;
+  background-color: #10101c;
+  color: #e8e6e3;
+  line-height: 1.6;
+}
+
+#encabezado {
+  background-color: #1a1a2e;
+  color: #f4c95d;
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+  border-bottom: 4px solid #6b0f1a;
+}
+
+#encabezado h1 {
+  margin: 0;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+}
+
+.subtitulo {
+  color: #cfcfcf;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+#menu {
+  text-align: center;
+  background-color: #0c0c16;
+  padding: 12px 0;
+}
+
+#menu a {
+  color: #edf6f9;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 6px 10px;
+}
+
+#menu a:hover {
+  background-color: #6b0f1a;
+}
+
+.seccion {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.seccion-oscura {
+  background-color: #16162a;
+}
+
+.seccion h2 {
+  color: #f4c95d;
+  border-bottom: 2px solid #6b0f1a;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.imagen-principal {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 20px auto;
+  border: 2px solid #6b0f1a;
+}
+
+.etiqueta {
+  color: #f4c95d;
+  font-weight: bold;
+}
+
+.personaje {
+  background-color: #1a1a2e;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.imagen-personaje {
+  width: 100px;
+  height: 100px;
+}
+
+.info-personaje h3 {
+  margin: 0 0 8px 0;
+  color: #f4c95d;
+}
+
+.info-personaje p {
+  margin: 0;
+}
+
+.lista-datos {
+  padding-left: 20px;
+}
+
+.lista-datos li {
+  margin-bottom: 12px;
+}
+
+#pie-pagina {
+  text-align: center;
+  background-color: #0c0c16;
+  color: #999999;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .personaje {
+    text-align: center;
+  }
+}
