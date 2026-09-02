@@ -1,6 +1,6 @@
 remote_theme: pages-themes/slate@v0.2.0
 title: Guia 1
 description: Página de paises - https://berganzaarantza.github.io/paises.html
-página de estilos embebidos - https://berganzaarantza.github.io/estilos_embebidos.html
-página de ejercicio complementario - https://berganzaarantza.github.io/ejercicio_complementario.html 
-página de ejemplo2 - https://berganzaarantza.github.io/ejemplo2.html
+styles_page: página de estilos embebidos - https://berganzaarantza.github.io/estilos_embebidos.html
+complementary_exercise: página de ejercicio complementario - https://berganzaarantza.github.io/ejercicio_complementario.html
+example2_page: página de ejemplo2 - https://berganzaarantza.github.io/ejemplo2.html
