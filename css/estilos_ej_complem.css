@@ -1,126 +1,117 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>The Promised Neverland - Temporada 1</title>
-  <link rel="stylesheet" href="css/estilos_ej_complem.css">
-</head>
-<body>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', Verdana, sans-serif;
+  background-color: #10101c;
+  color: #e8e6e3;
+  line-height: 1.6;
+}
 
-  <header id="encabezado">
-    <h1>The Promised Neverland</h1>
-    <p class="subtitulo">Yakusoku no Neverland</p>
-  </header>
+#encabezado {
+  background-color: #1a1a2e;
+  color: #f4c95d;
+  text-align: center;
+  padding: 40px 20px 20px 20px;
+  border-bottom: 4px solid #6b0f1a;
+}
 
-  <nav id="menu">
-    <a href="#info-general">Información General</a>
-    <a href="#sinopsis">Sinopsis</a>
-    <a href="#personajes">Personajes</a>
-    <a href="#datos">Datos Curiosos</a>
-  </nav>
+#encabezado h1 {
+  margin: 0;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+}
 
-  <main>
+.subtitulo {
+  color: #cfcfcf;
+  font-style: italic;
+  margin-top: 8px;
+}
 
-    <section id="info-general" class="seccion">
-      <h2>Información General</h2>
-      <img src="https://cdn.myanimelist.net/images/manga/3/186922l.jpg" alt="Ilustración representativa de Grace Field House" class="imagen-principal">
-      <p>
-        <span class="etiqueta">Título original:</span> Yakusoku no Neverland<br>
-        <span class="etiqueta">Género:</span> Suspenso, misterio, terror psicológico<br>
-        <span class="etiqueta">Estudio de animación:</span> CloverWorks<br>
-        <span class="etiqueta">Basado en:</span> Manga de Kaiu Shirai (guion) y Posuka Demizu (arte)<br>
-        <span class="etiqueta">Número de episodios (T1):</span> 12<br>
-        <span class="etiqueta">Año de emisión:</span> 2019
-      </p>
-      <p>
-        La primera temporada adapta el arco inicial del manga, conocido por los fanáticos como
-        el "arco de Grace Field House", y sienta las bases de toda la trama sobre los orfanatos,
-        los demonios y el plan de fuga de los niños protagonistas.
-      </p>
-    </section>
+#menu {
+  text-align: center;
+  background-color: #0c0c16;
+  padding: 12px 0;
+}
 
-    <section id="sinopsis" class="seccion seccion-oscura">
-      <h2>Sinopsis</h2>
-      <p>
-        La historia se centra en Grace Field House, un orfanato aparentemente idílico donde un
-        grupo de niños vive feliz bajo el cuidado de su cuidadora, a quien llaman "Mamá".
-        Emma, Norman y Ray, los tres niños más inteligentes del lugar, descubren una noche el
-        oscuro secreto detrás del orfanato y de las adopciones que allí se realizan.
-      </p>
-      <p>
-        A partir de ese descubrimiento, los tres deben planificar en secreto una fuga para
-        salvar a todos los niños del orfanato, enfrentándose a la vigilancia constante de Mamá
-        y a los peligros que existen más allá de los muros de su hogar.
-      </p>
-    </section>
+#menu a {
+  color: #edf6f9;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 6px 10px;
+}
 
-    <section id="personajes" class="seccion">
-      <h2>Personajes Principales</h2>
+#menu a:hover {
+  background-color: #6b0f1a;
+}
 
-      <article class="personaje">
-        <img src="https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/3256506b-59b4-434d-86b0-00d5ca58b5fd/width=1200/3256506b-59b4-434d-86b0-00d5ca58b5fd.jpeg" alt="Emma" class="imagen-personaje">
-        <div class="info-personaje">
-          <h3>Emma</h3>
-          <p>
-            Protagonista de la serie. Es una niña optimista, físicamente muy capaz y con un
-            fuerte sentido de la justicia. Su objetivo principal es lograr que todos los niños
-            del orfanato escapen con vida, sin dejar a nadie atrás.
-          </p>
-        </div>
-      </article>
+.seccion {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
 
-      <article class="personaje">
-        <img src="https://i.pinimg.com/originals/6e/a7/c2/6ea7c2b6081bd1347ebcebee4b8d8269.jpg" alt="Norman" class="imagen-personaje">
-        <div class="info-personaje">
-          <h3>Norman</h3>
-          <p>
-            Considerado el niño más inteligente de Grace Field House. Es analítico, calculador
-            y siempre busca la estrategia más segura para proteger a sus hermanos y hermanas
-            del orfanato.
-          </p>
-        </div>
-      </article>
+.seccion-oscura {
+  background-color: #16162a;
+}
 
-      <article class="personaje">
-        <img src="https://tse4.mm.bing.net/th/id/OIP.HNxfBZK4uQBKZUzS5BueGgHaHE?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Ray" class="imagen-personaje">
-        <div class="info-personaje">
-          <h3>Ray</h3>
-          <p>
-            Niño reservado y observador, conocido por no dormir casi nunca. Guarda secretos
-            importantes sobre el orfanato y termina siendo clave en el plan de escape.
-          </p>
-        </div>
-      </article>
+.seccion h2 {
+  color: #f4c95d;
+  border-bottom: 2px solid #6b0f1a;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
 
-      <article class="personaje">
-        <img src="https://i.pinimg.com/736x/c1/89/2d/c1892dcdbc4259080b7af4d140ab1bbc.jpg" alt="Isabella" class="imagen-personaje">
-        <div class="info-personaje">
-          <h3>Isabella</h3>
-          <p>
-            La cuidadora del orfanato. Es amable en apariencia, pero extremadamente astuta y
-            observadora, lo que la convierte en el principal obstáculo para el plan de fuga de
-            los niños.
-          </p>
-        </div>
-      </article>
+.imagen-principal {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 20px auto;
+  border: 2px solid #6b0f1a;
+}
 
-    </section>
+.etiqueta {
+  color: #f4c95d;
+  font-weight: bold;
+}
 
-    <section id="datos" class="seccion seccion-oscura">
-      <h2>Datos Curiosos</h2>
-      <ul class="lista-datos">
-        <li>La primera temporada se dividió, en su emisión original, en dos partes.</li>
-        <li>La obra combina elementos de terror psicológico con temas relacionados a la infancia y la supervivencia.</li>
-        <li>El diseño de personajes busca transmitir inocencia infantil en contraste con la oscuridad de la trama.</li>
-        <li>Cada niño del orfanato posee un número de identificación tatuado en el cuello.</li>
-      </ul>
-    </section>
+.personaje {
+  background-color: #1a1a2e;
+  padding: 15px;
+  margin-bottom: 20px;
+}
 
-  </main>
+.imagen-personaje {
+  width: 100px;
+  height: 100px;
+}
 
-  <footer id="pie-pagina">
-    <p>Página creada con fines educativos como ejercicio de HTML y CSS.</p>
-  </footer>
+.info-personaje h3 {
+  margin: 0 0 8px 0;
+  color: #f4c95d;
+}
 
-</body>
-</html>
+.info-personaje p {
+  margin: 0;
+}
+
+.lista-datos {
+  padding-left: 20px;
+}
+
+.lista-datos li {
+  margin-bottom: 12px;
+}
+
+#pie-pagina {
+  text-align: center;
+  background-color: #0c0c16;
+  color: #999999;
+  padding: 20px;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .personaje {
+    text-align: center;
+  }
+}
